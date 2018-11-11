@@ -51,6 +51,14 @@ public class Person
         this.lol = lol;
     }
 
+    public Person() {
+    }
+
+    public Person(String name, Integer age) {
+        this.name = name;
+        this.age = age;
+    }
+
     @Override
     public String toString() {
         return "Person{" +
